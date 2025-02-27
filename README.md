@@ -10,7 +10,7 @@ Ensure you have the following installed:
 - Java Development Kit (JDK)
 - Apache Tomcat
 - MySQL
-- Eclipse IDE
+- Vscode IDE
 - Proper JAR files for JDBC and Servlet APIs
 
 ## Installation
@@ -59,8 +59,8 @@ To stop tomcat server:
 
 #### Step 3: Java Editor
 
-Use vscode for editing the code
-Open hospital-management-system folder with vscode
+Use Vscode for editing the code
+Open hospital-management-system folder with Vscode
 
 **File Structure:**
 
@@ -78,7 +78,7 @@ Open hospital-management-system folder with vscode
     ├── *All frontend jsp files*
 
 
-**Use this command to compile java source codes in vscode**
+**Use this command to compile java source codes in Vscode**
 
     javac -cp "./WEB-INF/lib/*" -d "./WEB-INF/classes" ./WEB-INF/src/*.java
 
