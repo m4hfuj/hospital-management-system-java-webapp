@@ -98,6 +98,6 @@ Then copy the hospital-management-system folder into inside of /opt/tomcat/webap
 
 ## 📞 Contact
 If you have any questions or suggestions, feel free to contact me at:
-- Email: mhmirza.jusr@gmail.com
+- Email: mhmirza.just@gmail.com
 
 Thank you for checking out the Hospital Management System project! 🙌
