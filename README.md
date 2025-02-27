@@ -77,7 +77,7 @@ Open hospital-management-system folder with Vscode
     │   ├── web.xml
     ├── *All frontend jsp files*
 
-**Download maven libraries**
+### Maven libraries
 
 - Java Maven Repository URL: `https://repo1.maven.org/maven2/`
 - jakarta.servlet-api-6.1.0.jar: `https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/6.1.0/jakarta.servlet-api-6.1.0.jar`
@@ -85,7 +85,7 @@ Open hospital-management-system folder with Vscode
 - mysql-connector-j-8.1.0.jar: `https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/8.1.0/mysql-connector-j-8.1.0.jar`
 
 
-**Use this command to compile java source codes in Vscode**
+### Use this command to compile java source codes in Vscode
 
     javac -cp "./WEB-INF/lib/*" -d "./WEB-INF/classes" ./WEB-INF/src/*.java
 
