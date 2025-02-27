@@ -15,7 +15,7 @@ Ensure you have the following installed:
 
 ## Installation
 
-#### Step 1: Tomcat
+### Step 1: Tomcat
 
 Download tomcat 11 from: https://tomcat.apache.org/download-11.cgi
 
@@ -40,7 +40,7 @@ To stop tomcat server:
     ./shutdown.sh
 
 
-#### Step 2: Setup Database
+### Step 2: Setup Database
 
 **Start MySQL Database**
 
@@ -57,7 +57,7 @@ To stop tomcat server:
      String password = "";
      ```
 
-#### Step 3: Java Editor
+### Step 3: Java Editor
 
 Use Vscode for editing the code
 Open hospital-management-system folder with Vscode
@@ -83,7 +83,7 @@ Open hospital-management-system folder with Vscode
     javac -cp "./WEB-INF/lib/*" -d "./WEB-INF/classes" ./WEB-INF/src/*.java
 
 
-#### Step 4: Open project on Browser
+### Step 4: Open project on Browser
 
 **Clone the Repository:**
    ```bash
