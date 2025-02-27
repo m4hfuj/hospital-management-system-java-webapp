@@ -59,8 +59,8 @@ To stop tomcat server:
 
 #### Step 3: Java Editor
 
-Use VSCODE for editing the code
-Open hospital-management-system folder with VSCODE
+Use vscode for editing the code
+Open hospital-management-system folder with vscode
 
 **File Structure:**
 
@@ -78,7 +78,7 @@ Open hospital-management-system folder with VSCODE
     ├── *All frontend jsp files*
 
 
-**Use this command to compile java source codes**
+**Use this command to compile java source codes in vscode**
 
     javac -cp "./WEB-INF/lib/*" -d "./WEB-INF/classes" ./WEB-INF/src/*.java
 
