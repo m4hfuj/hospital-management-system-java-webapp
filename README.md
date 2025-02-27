@@ -13,7 +13,9 @@ Ensure you have the following installed:
 - Eclipse IDE
 - Proper JAR files for JDBC and Servlet APIs
 
-### Download and Install Tomcat Server
+## Installation
+
+#### Step 1: Tomcat
 
 Download tomcat 11 from: https://tomcat.apache.org/download-11.cgi
 
@@ -38,7 +40,13 @@ To stop tomcat server:
     ./shutdown.sh
 
 
-### Setup Database
+#### Step 2: Setup Database
+
+**Start MySQL Database**
+
+- Stop apache2: `sudo systemctl stop apache2`
+- Stop MySQL: `sudo service mysql stop`
+- Run: `sudo /opt/lampp/manager-linux-x64.run`
 
 **Configure Database:**
    - Create a database in MySQL using the provided `sql.txt` file.
@@ -49,7 +57,33 @@ To stop tomcat server:
      String password = "";
      ```
 
-### Open project on Browser
+#### Step 3: Java Editor
+
+Use VSCODE for editing the code
+Open hospital-management-system folder with VSCODE
+
+**File Structure:**
+
+    hospital-management-system/
+    ├── META-INF
+    ├── WEB-INF
+    │   ├── class/
+    │   │   ├── *Compile classes*
+    │   ├── lib/
+    │   │   ├── *All jre library files*
+    │   ├── src/
+    │   │   ├── *Java Codes*
+    │   ├── hospitalDashboard.jsp
+    │   ├── web.xml
+    ├── *All frontend jsp files*
+
+
+**Use this command to compile java source codes**
+
+    javac -cp "./WEB-INF/lib/*" -d "./WEB-INF/classes" ./WEB-INF/src/*.java
+
+
+#### Step 4: Open project on Browser
 
 **Clone the Repository:**
    ```bash
