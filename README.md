@@ -94,7 +94,7 @@ Open hospital-management-system folder with Vscode
 
 **Clone the Repository:**
    ```bash
-   git clone https://github.com/Shripad735/hospital-management-system.git
+   git clone https://github.com/m4hfuj/hospital-management-system-java-webapp.git
    ```
 
 Then copy the hospital-management-system folder into inside of /opt/tomcat/webapps folder
